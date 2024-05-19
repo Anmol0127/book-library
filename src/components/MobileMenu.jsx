@@ -27,16 +27,6 @@ const MobileMenu = () => {
               <span>Profile</span>
             </Link>
             <Link
-              to={`/profile/${name}/statistics`}
-              className="flex flex-col items-center gap-1 p-2 text-sm dark:text-white "
-              onClick={() => setIsOpen(false)}
-            >
-              <svg className="w-7 h-7 fill-current" viewBox="0 0 24 24">
-                <path d="M22,21H2V3H4V19H6V10H10V19H12V6H16V19H18V14H22V21Z" />
-              </svg>
-              <span>Statistics</span>
-            </Link>
-            <Link
               to="/settings"
               className="flex flex-col items-center gap-1 p-2 text-sm dark:text-white"
               onClick={() => setIsOpen(false)}

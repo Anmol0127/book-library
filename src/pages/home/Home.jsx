@@ -44,7 +44,7 @@ const Home = () => {
               />
             </svg>
           </Feature>
-          <Feature title="Track" description="View your statistics wrapped in nice visual charts">
+          <Feature title="Track" description="View your current status of the books added in your profile">
             <svg className="h-10 w-10 text-blue-500" viewBox="0 0 24 24">
               <path
                 fill="currentColor"
