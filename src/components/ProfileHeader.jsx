@@ -39,12 +39,6 @@ const ProfileHeader = ({ user }) => {
           >
             <Link to={`/profile/${user.name}`}>Book List</Link>
           </li>
-          <li
-            className={`${onStats ? 'font-bold' : 'text-gray-400'
-              } flex items-center px-4 focus:outline-none`}
-          >
-            <Link to={`/profile/${user.name}/statistics`}>Statistics</Link>
-          </li>
         </ul>
       </div>
     </>
